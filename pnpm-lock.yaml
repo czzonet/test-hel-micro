@@ -34,6 +34,7 @@ specifiers:
   file-loader: ^6.2.0
   fork-ts-checker-webpack-plugin: ^6.4.0
   get-port: ^5.1.1
+  hel-micro: ^3.9.0
   history: ^5.0.0
   html-webpack-plugin: ^5.2.0
   http-proxy-middleware: ^1.0.6
@@ -60,6 +61,7 @@ specifiers:
 
 dependencies:
   dayjs: 1.11.2
+  hel-micro: 3.9.0
   immer: 9.0.14
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -3850,6 +3852,23 @@ packages:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
     hasBin: true
     dev: true
+
+  /hel-micro-core/3.9.0:
+    resolution: {integrity: sha512-W9TR7ZotPlJA1OMRYlrcumPGPQn/RYstTxdZN1WPyA5+f060zK6Dv9LfLeeUtxgG30D9MwBG3ykrGyYb2mKmzg==}
+    dependencies:
+      hel-types: 3.7.0
+    dev: false
+
+  /hel-micro/3.9.0:
+    resolution: {integrity: sha512-5EsEKI0goonUyltjuOotsw9YHN2dr6UPDpBxmFh+v2r4GHqwOTJ4A+3Pwoum9BM1GfA/N08efDHI7Ag4J4U3Pw==}
+    dependencies:
+      hel-micro-core: 3.9.0
+      hel-types: 3.7.0
+    dev: false
+
+  /hel-types/3.7.0:
+    resolution: {integrity: sha512-p75zIZFDjnsU7LD0WLGL2m+GBasAXqSL1Sz/BF8psv+2muGb/6PlBIo2InwmuD8bmAt/H7h/Dg5+stsXHerhng==}
+    dev: false
 
   /history/5.3.0:
     resolution: {integrity: sha512-ZqaKwjjrAYUYfLG+htGaIIZ4nioX2L70ZUMIFysS3xvBsSG4x/n1V6TXV3N8ZYNuFGlDirFg32T7B6WOUPDYcQ==}

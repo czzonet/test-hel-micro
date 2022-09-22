@@ -71,6 +71,7 @@
   },
   "dependencies": {
     "dayjs": "^1.10.7",
+    "hel-micro": "^3.9.0",
     "immer": "^9.0.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
